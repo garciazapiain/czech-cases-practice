@@ -1,0 +1,11 @@
+[
+    {"noun":"pán","gender":"m","translation":"man"},
+    {"noun":"hrad","gender":"m","translation":"castle"},
+    {"noun":"stoj","gender":"m","translation":"machine"},
+    {"noun":"žena","gender":"f","translation":"woman"},
+    {"noun":"růže","gender":"f","translation":"rose"},
+    {"noun":"bazeň","gender":"f","translation":"pool"},
+    {"noun":"moře","gender":"n","translation":"sea"},
+    {"noun":"kino","gender":"n","translation":"cinema"},
+    {"noun":"náměstí","gender":"n","translation":"square"}
+] 
