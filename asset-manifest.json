@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/czech-cases-practic/static/css/main.3c27d5fe.css",
-    "main.js": "/czech-cases-practic/static/js/main.c1fb6f4d.js",
-    "static/js/787.f7f81d04.chunk.js": "/czech-cases-practic/static/js/787.f7f81d04.chunk.js",
-    "index.html": "/czech-cases-practic/index.html",
-    "main.3c27d5fe.css.map": "/czech-cases-practic/static/css/main.3c27d5fe.css.map",
-    "main.c1fb6f4d.js.map": "/czech-cases-practic/static/js/main.c1fb6f4d.js.map",
-    "787.f7f81d04.chunk.js.map": "/czech-cases-practic/static/js/787.f7f81d04.chunk.js.map"
+    "main.css": "/czech-cases-practice/static/css/main.3c27d5fe.css",
+    "main.js": "/czech-cases-practice/static/js/main.d76a35f0.js",
+    "static/js/787.f7f81d04.chunk.js": "/czech-cases-practice/static/js/787.f7f81d04.chunk.js",
+    "index.html": "/czech-cases-practice/index.html",
+    "main.3c27d5fe.css.map": "/czech-cases-practice/static/css/main.3c27d5fe.css.map",
+    "main.d76a35f0.js.map": "/czech-cases-practice/static/js/main.d76a35f0.js.map",
+    "787.f7f81d04.chunk.js.map": "/czech-cases-practice/static/js/787.f7f81d04.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3c27d5fe.css",
-    "static/js/main.c1fb6f4d.js"
+    "static/js/main.d76a35f0.js"
   ]
 }
