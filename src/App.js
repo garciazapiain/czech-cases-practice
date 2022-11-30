@@ -9,15 +9,15 @@ function App() {
   const [toggleShowHints, setToggleShowHints] = React.useState("")
   const [generateAll, setGenerateAll] = React.useState(false)
 
-  function toggleShowHintsClicked () {
+  function toggleShowHintsClicked() {
     setToggleShowHints(!toggleShowHints)
   }
 
-  function generateAllClicked(){
+  function generateAllClicked() {
     setGenerateAll(true)
-    setTimeout(()=>{
+    setTimeout(() => {
       setGenerateAll(false)
-    },100)
+    }, 100)
   }
 
 
@@ -28,31 +28,31 @@ function App() {
         <Pronoun
           toggleShowHints={toggleShowHints}
           generateAll={generateAll}
-          generateAllClicked={()=>generateAllClicked}
+          generateAllClicked={() => generateAllClicked}
         />
         <Verb
           toggleShowHints={toggleShowHints}
           generateAll={generateAll}
-          generateAllClicked={()=>generateAllClicked}
+          generateAllClicked={() => generateAllClicked}
         />
         <Case
           toggleShowHints={toggleShowHints}
           generateAll={generateAll}
-          generateAllClicked={()=>generateAllClicked}
+          generateAllClicked={() => generateAllClicked}
         />
         <Noun
           toggleShowHints={toggleShowHints}
           generateAll={generateAll}
-          generateAllClicked={()=>generateAllClicked}
-        /> 
+          generateAllClicked={() => generateAllClicked}
+        />
       </div>
       <button className="button" onClick={generateAllClicked}>Generate All</button>
       <br></br>
       <button className="button" onClick={toggleShowHintsClicked}>Show Hints</button>
       <div>
-      <a target="_blank" href="https://www.google.com/search?q=english+to+czech&rlz=1C5CHFA_enCZ1003CZ1004&oq=english+to+czech&aqs=chrome..69i57.2858j0j7&sourceid=chrome&ie=UTF-8">English to Czech</a>
-      <br></br>
-      <a target="_blank" href="https://www.locallingo.com/czech/grammar/nouns_declension.html">Prepositions</a>
+        <a target="_blank" href="https://www.google.com/search?q=english+to+czech&rlz=1C5CHFA_enCZ1003CZ1004&oq=english+to+czech&aqs=chrome..69i57.2858j0j7&sourceid=chrome&ie=UTF-8">English to Czech</a>
+        <br></br>
+        <a target="_blank" href="https://www.locallingo.com/czech/grammar/nouns_declension.html">Prepositions</a>
       </div>
     </div>
   );

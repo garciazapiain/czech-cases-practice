@@ -4,27 +4,42 @@ import verbData from "../data/verb.json"
 const Verb = (props) => {
     const [verbIndex, setVerbIndex] = React.useState("")
 
-    function generateRandom(){
+    function generateRandom() {
         setVerbIndex(verbData[Math.floor(Math.random() * verbData.length)])
     }
 
-    React.useEffect(()=>{
-        if(props.generateAll){
+    React.useEffect(() => {
+        if (props.generateAll) {
             generateRandom()
             props.generateAllClicked()
         }
-    },[props.generateAll])
+    }, [props.generateAll])
 
-    return(
+    return (
         <div className="boxContainer">
-            <h4>Verb</h4>
-            <h4>{verbIndex.verb}</h4>
-            <button onClick={generateRandom}>Generate</button>
-            {props.toggleShowHints&&
-                <div>
-                    <p>Translation: {verbIndex.translation}</p>
-                </div>
-            }
+            <div className="boxContainerCategoryAndGenerate">
+                <h4>Verb</h4>
+                <button onClick={generateRandom}>Generate</button>
+            </div>
+            <div className="boxContainerWord">
+                <h4>{verbIndex.verb}</h4>
+            </div>
+            <div className="boxContainerTranslationNoun">
+                {props.toggleShowHints ?
+                    <>
+                        <div className="boxContainerTranslationNounSection">
+                            <p className="hints">Translation:</p>
+                            <h4> {verbIndex.translation}</h4>
+                        </div>
+                        <div className="boxContainerTranslationNounSection">
+                            <p className="hints">More info:</p>
+                            <a target="_blank" href={`https://en.wiktionary.org/wiki/${verbIndex.verb}`}>links</a>
+                        </div>
+                    </>
+                    :
+                    <p></p>
+                }
+            </div>
         </div>
     )
 }
