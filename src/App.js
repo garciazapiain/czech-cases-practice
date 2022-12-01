@@ -26,10 +26,12 @@ function App() {
 
   function generateRandomPronoun() {
     setPronounIndex(pronounData[Math.floor(Math.random() * pronounData.length)])
+    setVerbAnswer("")
   }
 
   function generateRandomCase() {
     setCaseIndex(caseData[Math.floor(Math.random() * caseData.length)])
+    setNounAnswer("")
   }
 
   function generateRandomNoun() {
