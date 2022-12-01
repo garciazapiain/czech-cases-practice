@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/czech-cases-practice/static/css/main.9860edfb.css",
-    "main.js": "/czech-cases-practice/static/js/main.5cbaa96e.js",
+    "main.js": "/czech-cases-practice/static/js/main.690ecf9b.js",
     "static/js/787.f7f81d04.chunk.js": "/czech-cases-practice/static/js/787.f7f81d04.chunk.js",
     "index.html": "/czech-cases-practice/index.html",
     "main.9860edfb.css.map": "/czech-cases-practice/static/css/main.9860edfb.css.map",
-    "main.5cbaa96e.js.map": "/czech-cases-practice/static/js/main.5cbaa96e.js.map",
+    "main.690ecf9b.js.map": "/czech-cases-practice/static/js/main.690ecf9b.js.map",
     "787.f7f81d04.chunk.js.map": "/czech-cases-practice/static/js/787.f7f81d04.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9860edfb.css",
-    "static/js/main.5cbaa96e.js"
+    "static/js/main.690ecf9b.js"
   ]
 }
