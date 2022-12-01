@@ -1,14 +1,101 @@
 [
-    {"verb":"chtít", "translation":"want"},
-    {"verb":"vědět", "translation":"know"},
-    {"verb":"stát", "translation":"stand"},
-    {"verb":"jíst", "translation":"eat"},
-    {"verb":"bát se", "translation":"to be afraid"},
-    {"verb":"číst", "translation":"read"},
-    {"verb":"psát", "translation":"write"},
-    {"verb":"jít", "translation":"to go walk"},
-    {"verb":"jet", "translation":"to go drive"},
-    {"verb":"vzít", "translation":"to take"},
-    {"verb":"růst", "translation":"to grow"},
-    {"verb":"vzít", "translation":"to take"}
+    {"verb":"chtít", "translation":"want","conjugation":{
+        "Ja":"chci",
+        "Ty":"chceš",
+        "On":"chce",
+        "Ona":"chce",
+        "My":"chceme",
+        "Vy":"chcete",
+        "Oni":"chtějí"
+    }},
+    {"verb":"vědět", "translation":"know","conjugation":{
+        "Ja":"vím",
+        "Ty":"víš",
+        "On":"ví",
+        "Ona":"ví",
+        "My":"víme",
+        "Vy":"víte",
+        "Oni":"vědí"
+    }},
+    {"verb":"stát", "translation":"stand","conjugation":{
+        "Ja":"stojím",
+        "Ty":"stojíš",
+        "On":"stojí",
+        "Ona":"stojí",
+        "My":"stojíme",
+        "Vy":"stojíte",
+        "Oni":"stojí"
+    }},
+    {"verb":"jíst", "translation":"eat","conjugation":{
+        "Ja":"jím",
+        "Ty":"jíš",
+        "On":"jí",
+        "Ona":"jí",
+        "My":"jíme",
+        "Vy":"jíte",
+        "Oni":"jedí"
+    }},
+    {"verb":"bát", "translation":"to be afraid","conjugation":{
+        "Ja":"bojím",
+        "Ty":"bojíš",
+        "On":"bojí",
+        "Ona":"bojí",
+        "My":"bojíme",
+        "Vy":"bojíte",
+        "Oni":"bojí"
+    }},
+    {"verb":"číst", "translation":"read","conjugation":{
+        "Ja":"čtu",
+        "Ty":"čteš",
+        "On":"čte",
+        "Ona":"čte",
+        "My":"čteme",
+        "Vy":"čtete",
+        "Oni":"čtou"
+    }},
+    {"verb":"psát", "translation":"write","conjugation":{
+        "Ja":"píši",
+        "Ty":"píšeš",
+        "On":"píše",
+        "Ona":"píše",
+        "My":"píšeme",
+        "Vy":"píšete",
+        "Oni":"píší"
+    }},
+    {"verb":"jít", "translation":"to go walk","conjugation":{
+        "Ja":"jdu",
+        "Ty":"jdeš",
+        "On":"jde",
+        "Ona":"jde",
+        "My":"jdeme",
+        "Vy":"jdete",
+        "Oni":"jdou"
+    }},
+    {"verb":"jet", "translation":"to go drive","conjugation":{
+        "Ja":"jedu",
+        "Ty":"jedeš",
+        "On":"jede",
+        "Ona":"jede",
+        "My":"jedeme",
+        "Vy":"jedete",
+        "Oni":"jedou"
+    }},
+    {"verb":"vzít", "translation":"to take","conjugation":{
+        "Ja":"vezmu",
+        "Ty":"vezmeš",
+        "On":"vezme",
+        "Ona":"vezme",
+        "My":"vezmeme",
+        "Vy":"vezmete",
+        "Oni":"vezmou"
+    }},
+    {"verb":"růst", "translation":"to grow","conjugation":{
+        "Ja":"rostu",
+        "Ty":"rosteš",
+        "On":"roste",
+        "Ona":"roste",
+        "My":"rosteme",
+        "Vy":"rostete",
+        "Oni":"rostou"
+    }}
 ]

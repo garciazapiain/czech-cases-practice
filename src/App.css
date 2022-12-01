@@ -1,3 +1,7 @@
+h1{
+  margin-bottom:0;
+}
+
 .App {
   text-align: center;
 }
@@ -17,6 +21,8 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  border-bottom:#282c34 2px solid;
+  padding-top:0;
 }
 
 .boxContainer button{
@@ -42,12 +48,15 @@
 }
 
 .boxContainerTranslation{
-  width: 40%;
+  width: 50%;
   display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  padding-bottom:1.5rem;
 }
 
 .boxContainerTranslationNoun{
-  width: 40%;
+  width: 50%;
   display: flex;
   flex-direction: column;
 }
@@ -61,6 +70,13 @@
   font-size: 0.8rem;
 }
 
+.buttonNewSingle{
+  border-radius: 10%;
+  padding: 0.3rem;
+  width: 6rem;
+  font-size: 0.7rem;
+}
+
 .hints{
   font-size: 0.8rem;
   padding-top: 0;
@@ -68,9 +84,51 @@
   margin-right: 0.5rem;
 }
 
-.button {
-  padding: 1rem;
+.sentenceSection {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.buttonSections{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.buttonNewAll {
+  padding: .5rem;
   margin: 1rem;
+  border-radius: 10%;
+  width: 7rem;
+  font-size: 1rem;
+}
+
+.buttonHints {
+  padding: .5rem;
+  margin: 1rem;
+  border-radius: 10%;
+  background-color: #41869d;
+  width: 7rem;
+  font-size: 1rem;
+}
+
+.buttonAnswers {
+  padding: .5rem;
+  margin: 1rem;
+  border-radius: 10%;
+  background-color: #41869d;
+  width: 7rem;
+  font-size: 1rem;
+}
+
+.linksSection{
+  padding:0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.answer{
+  color:#41869d
 }
 
 @media (prefers-reduced-motion: no-preference) {
