@@ -35,7 +35,7 @@
         "Vy":"jíte",
         "Oni":"jedí"
     }},
-    {"verb":"bát", "translation":"to be afraid","conjugation":{
+    {"verb":"bát se", "translation":"to be afraid","conjugation":{
         "Ja":"bojím",
         "Ty":"bojíš",
         "On":"bojí",

@@ -12,12 +12,27 @@ import nounData from "./data/noun.json"
 function App() {
   const [toggleShowHints, setToggleShowHints] = React.useState("")
   const [generateAll, setGenerateAll] = React.useState(false)
+
   const [verbIndex, setVerbIndex] = React.useState("")
   const [verbAnswer, setVerbAnswer] = React.useState("")
   const [pronounIndex, setPronounIndex] = React.useState("")
   const [caseIndex, setCaseIndex] = React.useState("")
   const [nounIndex, setNounIndex] = React.useState("")
   const [nounAnswer, setNounAnswer] = React.useState("")
+
+  const [themeDark, setThemeDark] = React.useState(false)
+
+  function toggleTheme () {
+    setThemeDark(!themeDark)
+  };
+  React.useEffect(() => {
+    if(themeDark){
+      document.body.className = "dark";
+    }
+    else {
+      document.body.className = ""
+    }
+  }, [themeDark]);
 
   function generateRandomVerb() {
     setVerbIndex(verbData[Math.floor(Math.random() * verbData.length)])
@@ -53,11 +68,20 @@ function App() {
   function createAnswers() {
     setVerbAnswer(verbIndex.conjugation[pronounIndex.pronoun])
     setNounAnswer(nounIndex.declension[caseIndex.caseType])
-  }
+  } 
 
   return (
     <div className="App">
-      <h1>Czech cases practice</h1>
+      <div>
+        <div className="toggleThemeSwitch">
+          <label onTouchStart={toggleTheme} class="switch">
+            <input type="checkbox"></input>
+            <span class="slider round"></span>
+          </label>
+          <p>{themeDark?"set light mode":"set dark mode"}</p>
+        </div>
+        <h1>Czech cases practice</h1>
+      </div>
       <div className='generatorContainer'>
         <Pronoun
           toggleShowHints={toggleShowHints}

@@ -1,6 +1,11 @@
 import React from "react";
 
 const Verb = (props) => {
+    let verbKeyForLink = ""
+    if(props.verbIndex.verb){
+        const split = props.verbIndex.verb.split(" ")
+        verbKeyForLink = split[0]
+    }
     return (
         <div className="boxContainer">
             <div className="boxContainerCategoryAndGenerate">
@@ -20,7 +25,7 @@ const Verb = (props) => {
                         <div className="boxContainerTranslationNounSection">
                             <p>More info:</p>
                             <div>
-                                <a target="_blank" href={`https://en.wiktionary.org/wiki/${props.verbIndex.verb}`}>links</a>
+                                <a target="_blank" href={`https://en.wiktionary.org/wiki/${verbKeyForLink}`}>links</a>
                             </div>
                         </div>
                     </>

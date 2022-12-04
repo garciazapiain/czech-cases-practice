@@ -44,10 +44,10 @@
     {"noun":"píseň","gender":"f","translation":"song",
         "declension":{
             "genitive":"písně",
-            "dative":"písni",
+            "dative":"písní",
             "accusative":"píseň",
-            "locative":"písni",
-            "instrumental":"písni"
+            "locative":"písní",
+            "instrumental":"písní"
         }},
     {"noun":"moře","gender":"n","translation":"sea",
         "declension":{

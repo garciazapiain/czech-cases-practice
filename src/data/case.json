@@ -12,13 +12,13 @@
     {"case": "navzdor(y)", "translation":"in spite of, despite","caseNumber":"3rd","caseType":"dative"},
     {"case": "proti / naproti", "translation":"against","caseNumber":"3rd","caseType":"dative"},
     {"case": "vůči", "translation":"towards, to, against","caseNumber":"3rd","caseType":"dative"},
-    {"case": "na", "translation":"on, onto (direction)","caseNumber":"4th","caseType":"accusative"},
-    {"case": "o", "translation":"for","caseNumber":"4th","caseType":"accusative"},
+    {"case": "na (onto)", "translation":"on, onto (direction)","caseNumber":"4th","caseType":"accusative"},
+    {"case": "o (for)", "translation":"for","caseNumber":"4th","caseType":"accusative"},
     {"case": "pro", "translation":"for","caseNumber":"4th","caseType":"accusative"},
     {"case": "přes", "translation":"in spite of","caseNumber":"4th","caseType":"accusative"},
-    {"case": "za", "translation":"for, on behalf of, in the course of","caseNumber":"6th","caseType":"locative"},
-    {"case": "na", "translation":"on (location)","caseNumber":"6th","caseType":"locative"},
-    {"case": "o", "translation":"about","caseNumber":"6th","caseType":"locative"},
+    {"case": "za (for)", "translation":"for, on behalf of, in the course of","caseNumber":"6th","caseType":"locative"},
+    {"case": "na (on)", "translation":"on (location)","caseNumber":"6th","caseType":"locative"},
+    {"case": "o (about)", "translation":"about","caseNumber":"6th","caseType":"locative"},
     {"case": "po", "translation":"after","caseNumber":"6th","caseType":"locative"},
     {"case": "v/ve", "translation":"in","caseNumber":"7th","caseType":"instrumental"},
     {"case": "mezi", "translation":"between","caseNumber":"7th","caseType":"instrumental"},
@@ -26,5 +26,5 @@
     {"case": "pod", "translation":"below, under","caseNumber":"7th","caseType":"instrumental"},
     {"case": "před", "translation":"in front of, before","caseNumber":"7th","caseType":"instrumental"},
     {"case": "s/se", "translation":"with","caseNumber":"7th","caseType":"instrumental"},
-    {"case": "za", "translation":"behind","caseNumber":"7th","caseType":"instrumental"}
+    {"case": "za (behind)", "translation":"behind","caseNumber":"7th","caseType":"instrumental"}
 ]
