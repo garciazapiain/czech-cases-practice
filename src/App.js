@@ -115,7 +115,7 @@ function App() {
       <div className="sentenceSection">
         <h2>{pronounIndex.pronoun}</h2>
         {
-          verbAnswer.length > 0 ?
+          verbAnswer?.length > 0 ?
             <h2 className="answer">{verbAnswer}</h2>
             :
             <h2>{verbIndex.verb}</h2>

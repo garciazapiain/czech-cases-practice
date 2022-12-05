@@ -97,5 +97,14 @@
         "My":"rosteme",
         "Vy":"rostete",
         "Oni":"rostou"
+    }},
+    {"verb":"dělát", "translation":"to do","conjugation":{
+        "Ja":"dělám",
+        "Ty":"děláš",
+        "On":"dělá",
+        "Ona":"dělá",
+        "My":"děláme",
+        "Vy":"děláte",
+        "Oni":"dělají"
     }}
 ]
