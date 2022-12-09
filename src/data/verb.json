@@ -1,6 +1,6 @@
 [
     {"verb":"chtít", "translation":"want","conjugation":{
-        "Ja":"chci",
+        "Já":"chci",
         "Ty":"chceš",
         "On":"chce",
         "Ona":"chce",
@@ -9,7 +9,7 @@
         "Oni":"chtějí"
     }},
     {"verb":"vědět", "translation":"know","conjugation":{
-        "Ja":"vím",
+        "Já":"vím",
         "Ty":"víš",
         "On":"ví",
         "Ona":"ví",
@@ -18,7 +18,7 @@
         "Oni":"vědí"
     }},
     {"verb":"stát", "translation":"stand","conjugation":{
-        "Ja":"stojím",
+        "Já":"stojím",
         "Ty":"stojíš",
         "On":"stojí",
         "Ona":"stojí",
@@ -27,7 +27,7 @@
         "Oni":"stojí"
     }},
     {"verb":"jíst", "translation":"eat","conjugation":{
-        "Ja":"jím",
+        "Já":"jím",
         "Ty":"jíš",
         "On":"jí",
         "Ona":"jí",
@@ -36,7 +36,7 @@
         "Oni":"jedí"
     }},
     {"verb":"bát se", "translation":"to be afraid","conjugation":{
-        "Ja":"bojím",
+        "Já":"bojím",
         "Ty":"bojíš",
         "On":"bojí",
         "Ona":"bojí",
@@ -45,7 +45,7 @@
         "Oni":"bojí"
     }},
     {"verb":"číst", "translation":"read","conjugation":{
-        "Ja":"čtu",
+        "Já":"čtu",
         "Ty":"čteš",
         "On":"čte",
         "Ona":"čte",
@@ -54,7 +54,7 @@
         "Oni":"čtou"
     }},
     {"verb":"psát", "translation":"write","conjugation":{
-        "Ja":"píši",
+        "Já":"píši",
         "Ty":"píšeš",
         "On":"píše",
         "Ona":"píše",
@@ -63,7 +63,7 @@
         "Oni":"píší"
     }},
     {"verb":"jít", "translation":"to go walk","conjugation":{
-        "Ja":"jdu",
+        "Já":"jdu",
         "Ty":"jdeš",
         "On":"jde",
         "Ona":"jde",
@@ -72,7 +72,7 @@
         "Oni":"jdou"
     }},
     {"verb":"jet", "translation":"to go drive","conjugation":{
-        "Ja":"jedu",
+        "Já":"jedu",
         "Ty":"jedeš",
         "On":"jede",
         "Ona":"jede",
@@ -81,7 +81,7 @@
         "Oni":"jedou"
     }},
     {"verb":"vzít", "translation":"to take","conjugation":{
-        "Ja":"vezmu",
+        "Já":"vezmu",
         "Ty":"vezmeš",
         "On":"vezme",
         "Ona":"vezme",
@@ -90,7 +90,7 @@
         "Oni":"vezmou"
     }},
     {"verb":"růst", "translation":"to grow","conjugation":{
-        "Ja":"rostu",
+        "Já":"rostu",
         "Ty":"rosteš",
         "On":"roste",
         "Ona":"roste",
@@ -99,7 +99,7 @@
         "Oni":"rostou"
     }},
     {"verb":"dělát", "translation":"to do","conjugation":{
-        "Ja":"dělám",
+        "Já":"dělám",
         "Ty":"děláš",
         "On":"dělá",
         "Ona":"dělá",

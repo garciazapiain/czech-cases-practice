@@ -63,6 +63,7 @@ function App() {
     generateRandomPronoun()
     generateRandomCase()
     generateRandomNoun()
+    setToggleShowHints(false)
   }
 
   function createAnswers() {
