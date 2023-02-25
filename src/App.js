@@ -66,6 +66,30 @@ function App() {
     setToggleShowHints(false)
   }
 
+  function selectPronoun(value){
+    if(value){
+      setPronounIndex(pronounData[pronounData.findIndex(pronoun => pronoun.pronoun === value)])
+    }
+  }
+
+  function selectVerb(value){
+    if(value){
+      setVerbIndex(verbData[verbData.findIndex(verb => verb.verb === value)])
+    }
+  }
+
+  function selectCase(value){
+    if(value){
+      setCaseIndex(caseData[caseData.findIndex(caseValue => caseValue.case === value)])
+    }
+  }
+  
+  function selectNoun(value){
+    if(value){
+      setNounIndex(nounData[nounData.findIndex(noun => noun.noun === value)])
+    }
+  }
+
   function createAnswers() {
     setVerbAnswer(verbIndex.conjugation[pronounIndex.pronoun])
     setNounAnswer(nounIndex.declension[caseIndex.caseType])
@@ -89,6 +113,7 @@ function App() {
           generateAll={generateAll}
           generateAllClicked={() => generateAllClicked}
           generateRandomPronoun={() => generateRandomPronoun}
+          selectPronoun={selectPronoun}
           pronounIndex={pronounIndex}
         />
         <Verb
@@ -96,6 +121,7 @@ function App() {
           generateAll={generateAll}
           generateAllClicked={() => generateAllClicked}
           generateRandomVerb={() => generateRandomVerb}
+          selectVerb={selectVerb}
           verbIndex={verbIndex}
         />
         <Case
@@ -103,6 +129,7 @@ function App() {
           generateAll={generateAll}
           generateAllClicked={() => generateAllClicked}
           generateRandomCase={() => generateRandomCase}
+          selectCase={selectCase}
           caseIndex={caseIndex}
         />
         <Noun
@@ -110,6 +137,7 @@ function App() {
           generateAll={generateAll}
           generateAllClicked={() => generateAllClicked}
           generateRandomNoun={() => generateRandomNoun}
+          selectNoun={selectNoun}
           nounIndex={nounIndex}
         />
       </div>
