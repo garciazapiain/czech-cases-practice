@@ -16,7 +16,7 @@
     {"case": "o (for)", "translation":"for","caseNumber":"4th","caseType":"accusative"},
     {"case": "pro", "translation":"for","caseNumber":"4th","caseType":"accusative"},
     {"case": "přes", "translation":"in spite of","caseNumber":"4th","caseType":"accusative"},
-    {"case": "za (for)", "translation":"for, on behalf of, in the course of","caseNumber":"6th","caseType":"locative"},
+    {"case": "za (for)", "translation":"for, on behalf of, in the course of","caseNumber":"4th","caseType":"accusative"},
     {"case": "na (on)", "translation":"on (location)","caseNumber":"6th","caseType":"locative"},
     {"case": "o (about)", "translation":"about","caseNumber":"6th","caseType":"locative"},
     {"case": "po", "translation":"after","caseNumber":"6th","caseType":"locative"},
