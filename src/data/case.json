@@ -20,7 +20,7 @@
     {"case": "na (on)", "translation":"on (location)","caseNumber":"6th","caseType":"locative"},
     {"case": "o (about)", "translation":"about","caseNumber":"6th","caseType":"locative"},
     {"case": "po", "translation":"after","caseNumber":"6th","caseType":"locative"},
-    {"case": "v/ve", "translation":"in","caseNumber":"7th","caseType":"instrumental"},
+    {"case": "v/ve", "translation":"in","caseNumber":"6th","caseType":"locative"},
     {"case": "mezi", "translation":"between","caseNumber":"7th","caseType":"instrumental"},
     {"case": "nad", "translation":"above, over","caseNumber":"7th","caseType":"instrumental"},
     {"case": "pod", "translation":"below, under","caseNumber":"7th","caseType":"instrumental"},
