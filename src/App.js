@@ -167,6 +167,8 @@ function App() {
         }
       </div>
       <div className="linksSection">
+        <a target="_blank" href={`https://en.wiktionary.org/wiki/${nounIndex.noun}#Czech`}>Declension of {nounIndex.noun}</a>
+        <br></br>
         <a target="_blank" href="https://www.google.com/search?q=english+to+czech&rlz=1C5CHFA_enCZ1003CZ1004&oq=english+to+czech&aqs=chrome..69i57.2858j0j7&sourceid=chrome&ie=UTF-8">English to Czech Translate</a>
         <br></br>
         <a target="_blank" href="https://www.locallingo.com/czech/grammar/nouns_declension.html">Prepositions</a>
